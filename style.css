@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #717685;
+
+}
+
+.pic {
+    width: 150px;
+}
+a {
+    text-decoration: none;
+    color:#b9b0b9;
+}
+
+.nav {
+    min-height: 40px;
+    background-color:  #1c1b1f;
+    text-align: center;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: #303b43;;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.name {
+    display: block;
+    margin-right: auto;
+    color:#b9b0b9;
+}
+
+header {
+    padding-top: 40px;
+    height: 400px;
+    width: 100%;
+    background-image: url('https://pbs.twimg.com/media/EynlmATWUAQtN1-?format=jpg&name=large');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+header img:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.tag {
+    display: table;
+    padding: 10px;
+    margin: 10px auto;
+    background-color:  	#b9b0b9;
+    color: #1c1b1f;
+    border-radius: 10px;
+}
+
+.list {
+    display: table;
+    padding: 10px;
+    margin: 10px auto;
+    background-color:  #1c1b1f;
+    color: #b9b0b9;
+    border-radius: 10px;
+}
+
+
+.sub-title {
+    background-color:  #1c1b1f;
+    color:#b9b0b9;
+}
+
+.sub-text {
+    color: #303b43;
+}
+
+
+.content {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 500px;
+    margin: 10px;
+    height: 200px;
+    padding: 10px;
+    background-color: #b9b0b9;
+
+    border-bottom: 3px solid  #1c1b1f;
+    border-radius: 5px;
+
+}
+
+.tag-list {
+   display: flex;
+   flex-flow: row; 
+   list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding: 60px;
+}
