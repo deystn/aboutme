@@ -6,13 +6,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #717685;
-
+    background-image: url('https://pbs.twimg.com/media/EynlmATWUAQtN1-?format=jpg&name=large');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .pic {
     width: 150px;
 }
+
 a {
     text-decoration: none;
     color:#b9b0b9;
@@ -47,11 +50,6 @@ a {
 
 header {
     padding-top: 40px;
-    height: 400px;
-    width: 100%;
-    background-image: url('https://pbs.twimg.com/media/EynlmATWUAQtN1-?format=jpg&name=large');
-    background-size: cover;
-    background-position: center;
     text-align: center;
 }
 
@@ -67,6 +65,7 @@ header img:hover {
 .tag {
     display: table;
     padding: 10px;
+    opacity: 85%;
     margin: 10px auto;
     background-color:  	#b9b0b9;
     color: #1c1b1f;
@@ -86,10 +85,11 @@ header img:hover {
 .sub-title {
     background-color:  #1c1b1f;
     color:#b9b0b9;
+    opacity: 85%;
 }
 
 .sub-text {
-    color: #303b43;
+    color: #1c1b1f;
 }
 
 
@@ -97,6 +97,7 @@ header img:hover {
     display: flex;
     flex-flow: row;
     margin: 0 auto;
+    padding: 40px;
     justify-content: space-around;
 }
 
@@ -106,6 +107,7 @@ header img:hover {
     height: 200px;
     padding: 10px;
     background-color: #b9b0b9;
+    opacity: 85%;
 
     border-bottom: 3px solid  #1c1b1f;
     border-radius: 5px;
